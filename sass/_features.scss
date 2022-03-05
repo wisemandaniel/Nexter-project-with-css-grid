@@ -1,0 +1,9 @@
+.features {
+    margin: 15rem 0;
+    grid-column: center-start / center-end;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
